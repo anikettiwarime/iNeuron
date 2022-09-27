@@ -1,5 +1,6 @@
 import random
 
+
 def puzzled(score: int, word: str) -> int:
     word1 = random.sample(word, k=len(word))
     word1 = ''.join(word1)
@@ -19,7 +20,7 @@ def puzzled(score: int, word: str) -> int:
 
 def mainFun():
     score = 0
-    words = ['SCHOOL', 'COLLEGE', 'INDIA', 'MUMBAI']
+    words = ['SCHOOL', 'COLLEGE', 'INDIA', 'MUMBAI','KOLKATA','INEURON']
 
     words = random.sample(words, k=len(words))
     print(words)
