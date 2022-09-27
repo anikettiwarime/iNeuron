@@ -20,7 +20,7 @@ def puzzled(score: int, word: str) -> int:
 
 def mainFun():
     score = 0
-    words = ['SCHOOL', 'COLLEGE', 'INDIA', 'MUMBAI','KOLKATA','INEURON']
+    words = ['SCHOOL', 'COLLEGE', 'INDIA', 'MUMBAI', 'KOLKATA', 'INEURON']
 
     words = random.sample(words, k=len(words))
     print(words)
